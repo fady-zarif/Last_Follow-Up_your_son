@@ -1,0 +1,115 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    >
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+
+        >
+
+      <!--  <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <ImageView android:layout_width="160dp"
+                android:layout_height="250dp"
+                android:background="@drawable/fady"
+                android:layout_marginTop="8dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="-10dp"
+                />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></RelativeLayout>
+
+
+        </RelativeLayout>
+
+      -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#4A148C"
+            android:text="Teacher Info"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="26dp">
+
+
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:hint="Full Name"
+                android:textColorHint="@color/background"
+                android:background="#9C27B0"
+                android:textColor="@color/background"
+                android:paddingLeft="5dp"
+                android:singleLine="true"
+                android:id="@+id/TeacherName"
+                android:layout_marginTop="10dp"/>
+
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:singleLine="true"
+                android:textColorHint="@color/background"
+                android:background="#9C27B0"
+                android:textColor="@color/background"
+                android:paddingLeft="5dp"
+                android:id="@+id/TeacherEmail"
+                android:layout_marginTop="15dp"/>
+
+
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:hint="Password"
+                android:singleLine="true"
+                android:textColorHint="@color/background"
+                android:background="#9C27B0"
+                android:textColor="@color/background"
+                android:id="@+id/TeacherPassword"
+                android:paddingLeft="5dp"
+                android:inputType="textWebPassword"
+                android:layout_marginTop="15dp"/>
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:singleLine="true"
+                android:hint="Confirm Password"
+                android:id="@+id/TeacherConfirmPassword"
+                android:textColorHint="@color/background"
+                android:background="#9C27B0"
+                android:textColor="@color/background"
+                android:inputType="textWebPassword"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"/>
+            <Button android:layout_width="190dp"
+                android:layout_height="35dp"
+                android:singleLine="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="32dp"
+                android:text="Sign Up "
+                android:textSize="17dp"
+                android:id="@+id/TeacherSubmit"
+                android:textColor="@color/background"
+                android:background="@drawable/button_border"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

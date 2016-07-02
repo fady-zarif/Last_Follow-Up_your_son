@@ -1,0 +1,156 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:orientation="vertical"
+    android:background="@color/background"
+    tools:showIn="@layout/activity_main"
+    tools:context=".MainActivityFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+
+            android:layout_width="88dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Follow-Up "
+            android:textColor="#004D40"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:id="@+id/title1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true"
+            android:text="\t your son"
+            android:textColor="#004D40"
+            android:textSize="20dp"
+            android:layout_below="@+id/title1"
+            android:textStyle="bold|"/>
+    </RelativeLayout>
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="290dp"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:paddingBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="-15dp"
+            android:src="@drawable/fady"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="290dp"
+            android:paddingBottom="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/general_male_teacher"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="wrap_content"
+
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content"
+                android:text="Sign up \n As Teacher"
+                android:textSize="18dp"
+                android:layout_alignParentLeft="true"
+                android:textAllCaps="false"
+                android:paddingTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:paddingBottom="5dp"
+                android:background="@drawable/button_border"
+                android:paddingLeft="20dp"
+                android:textColor="@android:color/white"
+                android:paddingRight="20dp"
+                android:layout_above="@+id/Sign_in"
+                android:id="@+id/teacher_sign_up"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign up \n As parent"
+                android:layout_marginRight="20dp"
+                android:textSize="18dp"
+                android:layout_alignParentRight="true"
+                android:textAllCaps="false"
+                android:paddingLeft="20dp"
+                android:layout_marginBottom="15dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textColor="@android:color/white"
+                android:background="@drawable/button_border"
+                android:paddingRight="20dp"
+                android:layout_marginLeft="15dp"
+                android:layout_above="@+id/Sign_in"
+                android:id="@+id/parent_signup"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:paddingTop="12dp"
+                android:layout_alignParentBottom="true"
+                android:paddingBottom="12dp"
+                android:text="Sign in"
+                android:layout_marginBottom="1dp"
+                android:id="@+id/Sign_in"
+                android:textSize="22dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"
+                android:textColor="@android:color/white"
+                android:background="@drawable/button_border"
+                android:textAlignment="center"
+                />
+
+        </RelativeLayout>
+<!--       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           android:layout_marginTop="8dp">
+
+&lt;!&ndash;        <Button
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:text="Offline Mode For Teachers"
+            android:layout_marginTop="5dp"
+            android:id="@+id/local_contact"
+            android:textSize="22dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_border"
+            android:textAlignment="center"
+            android:textAllCaps="false"/>&ndash;&gt;
+       </LinearLayout>-->
+    </LinearLayout>
+
+</LinearLayout>

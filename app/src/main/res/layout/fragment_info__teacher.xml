@@ -1,0 +1,150 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.foda_.follow_your_son.Info_Teacher"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#4A148C"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:text="Teacher Info"
+        android:layout_marginTop="10dp"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_weight="1.6"
+    android:layout_marginTop="25dp"
+    android:orientation="vertical"
+    android:layout_marginLeft="8dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/second_color"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:id="@+id/info_name"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/second_color"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/info_Subject"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/second_color"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/info_years"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/second_color"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/info_Area"
+        android:textStyle="bold"
+        />
+</LinearLayout>
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/info_image"
+        />
+
+</LinearLayout>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Rating:"
+    android:textColor="#4A148C"
+    android:textSize="29dp"
+    android:textStyle="bold"
+    android:layout_marginTop="10dp"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/ratingBar"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="10dp"
+        android:stepSize="0.5"
+        android:layout_marginStart="33dp" />
+
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact : "
+        android:layout_above="@+id/button_phone"
+        android:textColor="#4A148C"
+        android:textSize="29dp"
+        android:id="@+id/Contact_text"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        />
+
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button_border"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+    android:textSize="28dp"
+    android:text="Phone "
+    android:textColor="@color/background"
+    android:layout_alignParentBottom="true"
+    android:paddingLeft="30dp"
+    android:textAllCaps="false"
+    android:id="@+id/button_phone"
+    android:paddingRight="30dp"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_border"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="28dp"
+        android:layout_alignParentBottom="true"
+        android:text="Email "
+        android:textAllCaps="false"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/background"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:id="@+id/button_email" />
+
+
+</RelativeLayout>
+
+</LinearLayout>

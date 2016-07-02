@@ -1,0 +1,213 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:orientation="vertical"
+    android:background="@color/background"
+    tools:context="com.example.foda_.follow_your_son.Teacher_Profile">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="85dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/User_image"
+            android:adjustViewBounds="true"
+            android:src="@drawable/user"
+            />
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="33dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/color_kwis"
+        android:text="Profile"
+        android:textStyle="bold|italic"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+           android:layout_weight="1"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/color_kwis"
+                android:text="Email : "
+                android:textSize="22dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_marginTop="25dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/color_kwis"
+                android:text="Name : "
+                android:layout_marginLeft="10dp"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/color_kwis"
+                android:text="Subject :"
+                android:textSize="22dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_marginTop="25dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/color_kwis"
+                android:text="Years  :"
+                android:textSize="22dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_marginTop="25dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/color_kwis"
+                android:text="Area :"
+                android:textSize="22dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_marginTop="23dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/color_kwis"
+                android:text="Phone :"
+                android:textSize="22dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_marginTop="23dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="2"
+            android:layout_marginLeft="-8dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="23dp"
+                android:textStyle="italic|bold"
+                android:id="@+id/emAil"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textSize="22dp"
+                android:textColor="@android:color/black"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/naMe"
+                android:singleLine="true"
+                android:inputType="text"
+                android:textColorHint="@color/background"
+                android:textColor="@color/background"
+                android:hint=" Name"
+                android:paddingLeft="10dp"
+                android:background="@color/second_color"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:singleLine="true"
+                android:id="@+id/suBject"
+                android:inputType="text"
+                android:textColorHint="@color/background"
+                android:textColor="@color/background"
+                android:hint=" Subject"
+                android:background="@color/second_color"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/yeARS"
+                android:singleLine="true"
+                android:inputType="text"
+                android:textColorHint="@color/background"
+                android:textColor="@color/background"
+                android:hint=" Students Years"
+                android:background="@color/second_color"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/arEA"
+                android:singleLine="true"
+                android:inputType="text"
+
+                android:textColorHint="@color/background"
+                android:textColor="@color/background"
+                android:hint="  Your Area"
+                android:background="@color/second_color"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:singleLine="true"
+                android:inputType="phone"
+                android:paddingLeft="10dp"
+                android:id="@+id/phONE"
+                android:textColorHint="@color/background"
+                android:textColor="@color/background"
+                android:hint=" Mobile Number"
+                android:background="@color/second_color"/>
+        </LinearLayout>
+    </LinearLayout>
+    <Button android:layout_width="190dp"
+        android:layout_height="35dp"
+        android:singleLine="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:text="Share Profile"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:textColor="#F4FF81"
+        android:id="@+id/Share_profile"
+        android:background="@drawable/button_border"/>
+</LinearLayout>

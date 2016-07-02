@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+
+    android:layout_height="match_parent" tools:context="com.example.foda_.follow_your_son.My_Sons">
+
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32dp"
+        android:textColor="#01579B"
+        android:text="Teachers Notes"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/List_Sons"
+        android:divider="@color/background"
+        android:dividerHeight="6dp"
+        android:background="@drawable/button_border"
+        >
+
+    </ListView>
+</LinearLayout>

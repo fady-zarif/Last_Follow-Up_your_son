@@ -1,0 +1,123 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    >
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        >
+<!--        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <ImageView android:layout_width="160dp"
+                android:layout_height="216dp"
+                android:background="@drawable/general_male_teacher"
+                android:layout_marginTop="8dp"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                />
+
+        </RelativeLayout>-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="33dp"
+            android:textColor="#4A148C"
+            android:text="Parent Info"
+            android:textStyle="normal|bold"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp"
+            >
+
+
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:hint="Full Name"
+                android:textColorHint="#F4FF81"
+                android:background="#9C27B0"
+                android:textColor="#F4FF81"
+                android:paddingLeft="5dp"
+                android:singleLine="true"
+                android:id="@+id/parent_name"
+                android:layout_marginTop="10dp"/>
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:hint="email"
+                android:inputType="textWebEmailAddress"
+                android:singleLine="true"
+
+                android:id="@+id/parent_email"
+                android:textColorHint="#F4FF81"
+                android:background="#9C27B0"
+                android:textColor="#F4FF81"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"/>
+
+
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:singleLine="true"
+                android:id="@+id/parent_id"
+
+                android:hint="last five numbers of your id"
+                android:textColorHint="#F4FF81"
+                android:inputType="number"
+                android:background="#9C27B0"
+                android:textColor="#F4FF81"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"/>
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:hint="Password"
+                android:singleLine="true"
+                android:id="@+id/parent_password"
+                android:textColorHint="#F4FF81"
+                android:background="#9C27B0"
+                android:textColor="#F4FF81"
+                android:paddingLeft="5dp"
+                android:inputType="textWebPassword"
+                android:layout_marginTop="15dp"/>
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:singleLine="true"
+                android:hint="Confirm Password"
+                android:id="@+id/parent_confirm_Password"
+                android:textColorHint="#F4FF81"
+                android:background="#9C27B0"
+                android:textColor="#F4FF81"
+                android:inputType="textWebPassword"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"/>
+
+            <Button android:layout_width="190dp"
+                android:layout_height="35dp"
+                android:singleLine="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="32dp"
+                android:text="Sign up"
+                android:id="@+id/parent_submit"
+                android:textColor="#F4FF81"
+                android:textSize="18dp"
+                android:background="@drawable/button_border"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

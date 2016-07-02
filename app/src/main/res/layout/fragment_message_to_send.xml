@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="vertical"
+android:background="@color/background"
+    android:layout_height="match_parent"
+   >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold|italic"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="13dp"
+        android:text="Send Notes"
+        android:textSize="30dp"
+        android:textColor="#4A148C"/>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:layout_marginLeft="10dp"
+    android:background="@color/second_color"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="30dp">
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:textSize="18dp"
+        android:textColor="@color/background"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        >
+    </EditText>
+</RelativeLayout>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Send"
+    android:textAllCaps="false"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp"
+    android:paddingRight="30dp"
+    android:id="@+id/Submit_message"
+    android:textSize="26dp"
+    android:background="@drawable/button_border"
+    android:textColor="@color/background"
+    android:paddingLeft="30dp"/>
+</LinearLayout>

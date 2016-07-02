@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+   android:background="@color/background"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.foda_.follow_your_son.Student_Details_Fragment">
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="30dp"
+    android:textColor="#4A148C"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_marginTop="10dp"
+    android:textStyle="bold|italic"
+    android:text="Student Information"
+    />
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/button_border"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="10dp"
+
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/background"
+
+        android:layout_marginLeft="20dp"
+
+        android:textStyle="italic|bold"
+        android:layout_gravity="center"
+        android:text="Name"
+        android:id="@+id/Student_For_Contact"
+        />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#4A148C"
+        android:layout_marginLeft="3dp"
+        android:text="Contact Parent Via:"
+        android:textStyle="bold"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textAllCaps="false"
+        android:text="Send Email"
+        android:textSize="26dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/Email"
+        android:textColor="@color/background"
+        android:background="@drawable/mybut"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/Phone"
+        android:textSize="26dp"
+        android:textAllCaps="false"
+        android:text="Phone"
+        android:textColor="@color/background"
+        android:background="@drawable/mybut"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/Notification"
+        android:textSize="26dp"
+        android:text="Send Notes"
+        android:textColor="@color/background"
+        android:textAllCaps="false"
+        android:background="@drawable/mybut"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/delete"
+            android:textSize="30dp"
+            android:text="Delete This Student"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/background"
+            android:textAllCaps="false"
+
+            android:background="@drawable/button2"/>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context="com.example.foda_.follow_your_son.group_details">
+
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Student Details"
+    android:textSize="30dp"
+    android:textStyle="bold"
+    android:layout_marginTop="20dp"
+    android:textColor="#4A148C"
+    android:layout_gravity="center"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="7dp"
+        >
+        <EditText android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:hint="Student Name"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColorHint="#F4FF81"
+            android:background="#9C27B0"
+            android:textColor="#F4FF81"
+            android:paddingLeft="5dp"
+            android:id="@+id/Student_name"
+            android:layout_marginTop="15dp"/>
+        <EditText android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:hint="Parent_id"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColorHint="#F4FF81"
+            android:background="#9C27B0"
+            android:textColor="#F4FF81"
+            android:paddingLeft="5dp"
+            android:id="@+id/parent_id"
+            android:layout_marginTop="15dp"/>
+        <EditText android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:hint="Parent Email"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColorHint="#F4FF81"
+            android:background="#9C27B0"
+            android:textColor="#F4FF81"
+            android:paddingLeft="5dp"
+            android:id="@+id/Parent_Email"
+            android:layout_marginTop="15dp"/>
+        <EditText android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:hint="Parent Mobile"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColorHint="#F4FF81"
+            android:background="#9C27B0"
+            android:textColor="#F4FF81"
+            android:paddingLeft="5dp"
+            android:id="@+id/Parent_Moile"
+            android:layout_marginTop="15dp"/>
+        </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:paddingRight="50dp"
+        android:textSize="18dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/Save"
+        android:background="@drawable/button_border"
+        android:paddingLeft="50dp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+      />
+</LinearLayout>

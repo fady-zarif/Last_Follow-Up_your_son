@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background" tools:context="com.example.foda_.follow_your_son.Signin">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold|italic"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Sign In "
+        android:textSize="28dp"
+        android:textColor="#4A148C"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/Sign_in_UserName"
+        android:layout_marginRight="10dp"
+        android:singleLine="true"
+        android:layout_marginLeft="10dp"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/background"
+        android:textColor="@color/background"
+        android:hint=" User Name"
+        android:background="@color/second_color"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="textPassword"
+        android:imeOptions="actionDone"
+        android:singleLine="true"
+        android:layout_marginTop="12dp"
+        android:id="@+id/Sign_in_pass"
+        android:textColorHint="@color/background"
+        android:textColor="@color/background"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:hint=" Password"
+        android:background="@color/second_color"/>
+    <Button android:layout_width="190dp"
+        android:layout_height="35dp"
+        android:singleLine="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:text="Log In"
+        android:textSize="19dp"
+        android:id="@+id/Log_in"
+        android:textAllCaps="false"
+        android:textColor="#F4FF81"
+        android:background="@drawable/button_border"/>
+
+</LinearLayout>
